@@ -1,6 +1,8 @@
 # Outsourced.guru
 This sample React app helps to see some React in action.
 
+![screen shot 2017-11-29 at 10 40 00 am](https://user-images.githubusercontent.com/15971213/33392756-c77ff40a-d4f1-11e7-9786-2536e3707eb7.png)
+
 ## Details
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). I wanted to mimic the Windows Metro interface using DIV styling for placement.
