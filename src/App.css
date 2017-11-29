@@ -1,0 +1,222 @@
+@import url(https://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+* {
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-ms-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family: "Open Sans", arial;
+	background:#397c96;
+	color:#fff;
+	font-weight:300;
+	background-image: url('windows-8-background.jpg');
+	background-size: 1280px 768px;
+}
+
+/* This is the expected H1 within the main section, refactored since the React-created
+   part already styles this. */
+h5 {
+	font-family: "Open Sans", arial;
+	font-weight:300;
+	float: left;
+	width: 55%;
+	margin-left: -250px;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+h4 {
+	font-family: "Open Sans", arial;
+	font-weight:300;
+	float: left;
+	width: 55%;
+	margin-left: -200px;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	margin:0px;
+	font-family: "Open Sans", arial;
+	font-weight:300;
+}
+
+.App {
+	text-align: center;
+}
+
+.App-header {
+	background-color: #222;
+	height: 20px;
+	padding: 20px;
+	color: white;
+}
+
+.App-title {
+	font-size: 1.5em;
+	margin-top: -10px;
+}
+
+.container {
+	margin:50px;
+	width: 1251px;
+	margin-top: -30px;
+  margin-left:10px;
+	-webkit-transform:scale(0.9);
+}
+
+.spacer {
+	width:770px;
+	margin-right: 50px;
+	float:left;
+}
+.spacer3x {
+	width:300px;
+}
+
+a.wide, a.box {
+	text-decoration:none;
+	color:#fff;
+	-webkit-transition: -webkit-transform 0.1s;
+	position:relative;
+	overflow:hidden;
+}
+
+a.wide h2, a.box h2 {
+	position:absolute;
+	bottom:5px;
+	font-size:14px;
+}
+
+a.wide h2.top, a.box h2.top {
+	position:static;
+	font-size:14px;
+}
+a.wide i, a.box i {
+	font-size: 60px;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+}
+a.wide:hover, a.box:hover {
+	-webkit-transform: scale(1.03);
+}
+
+a.wide:active, a.box:active {
+	-webkit-transform: scale(1);
+}
+.wide {
+	width:270px;
+	height:120px;
+	overflow:hidden;
+	font-size:13px;
+	padding:10px;
+	display:block;
+	float:left;
+	margin:5px;
+}
+
+.box {
+	width:120px;
+	height:120px;
+	overflow:hidden;
+	font-size:13px;
+	padding:10px;
+	display:block;
+	float:left;
+	margin:5px;
+}
+
+.lime{background:#61b812;}
+.orange{background:#e76022;}
+.blue{background:#1E90FF;}
+.red{background:#DA312E;}
+.yellow{background:#dbb701;}
+.bluefish{background:#02b9e3;}
+.magenta{background:#d22a4e;}
+
+@-webkit-keyframes galeri {
+	1% {background-position: 0px 0px;}
+	10%{background-position: 0px 140px;}
+	20%{background-position: 0px 140px;}
+	30%{background-position: 0px 280px;}
+	40%{background-position: 0px 280px;}
+	50%{background-position: 0px 420px;}
+	60%{background-position: 0px 420px;}
+	70%{background-position: 0px 560px;}
+	80%{background-position: 0px 560px;}
+	100% {background-position: 0px 560px;}
+}
+
+.right {
+	float:right;
+	text-align:right;
+	margin-top: 60px;
+}
+.right p {
+	margin: 5px 0px;
+}
+img.prof {
+	float: right;
+	margin: 10px;
+	margin-top: 65px;
+	box-sizing: border-box;
+	width: 50px;
+	height: 50px;
+	padding-left: 50px;
+	background: url('https://secure.gravatar.com/avatar/c4104f53c63c671a67491a79cbe43151?s=50&r=pg&d=mm') no-repeat; 
+}
+img.gallery {
+	float: left;
+	margin: 10px;
+	margin-top: 65px;
+	box-sizing: border-box;
+	width: 50px;
+	height: 50px;
+}
+.i_bot {
+	font-size: 30px;
+	text-align: left;
+	position: absolute;
+	bottom: 0px;
+}
+.cal_i {
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 155px;
+}
+.cal_e h5 {
+	position: absolute;
+	right: 0px;
+	width: 115px;
+	text-align: center;
+	margin: 0px;
+	font-size: 60px;
+}
+.cal_e p {
+	position: absolute;
+	right: 0px;
+	width: 115px;
+	text-align: center;
+	margin-top: 75px;
+	text-transform: uppercase;
+}
+.cal_e i {
+	text-align: left;
+	font-size: 25px !important;
+	position: absolute;
+	bottom: 0px;
+}
+
+a.wide div {
+	font-size: 20px;
+	text-align: left;
+	display: block;
+	margin-top: 10px;
+}
